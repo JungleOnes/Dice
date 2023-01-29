@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+
+.wrapper>main {
+	flex-grow: 1;
+}
+
+body {
+	font-family: "Anton";
+}
+
+[class*="__container"] {
+	max-width: 1170px;
+	margin: 0 auto;
+
+}
+
+.header {
+	height: 900px;
+	background: url(../img/diceside.jpg) no-repeat center / cover;
+	;
+
+}
+
+.header__container {}
+
+.header__header {
+	padding-top: 41px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 216px;
+}
+
+.header__items {
+	display: flex;
+	gap: 69px;
+	align-items: center;
+	justify-content: center;
+}
+
+.header__list ul {
+	display: flex;
+	gap: 40px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.header__number {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 26px;
+	text-align: right;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.header__body {}
+
+.header__title {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 45px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.header__text {
+	font-weight: 400;
+	font-size: 100px;
+	line-height: 151px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.header__button {
+	display: flex;
+	width: 238px;
+	height: 57px;
+	border: 1px solid #FFFFFF;
+	justify-content: center;
+}
+
+.button {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 26px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
